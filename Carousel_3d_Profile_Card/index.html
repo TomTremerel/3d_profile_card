@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Second</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1>3D Profile Card</h1>
+    <section>
+        <div class="carousel" data-carousel>
+            <button class="carouselBtn prev" data-carouselBtn = "prev">&#60;</button>
+            <button class="carouselBtn next" data-carouselBtn = "next">&#62;</button>
+            <ul data-slides> 
+                <li class="slide" >
+                    <div class="container">
+                        <div class="card">
+                            <div class="cardBorder instagram">
+                                <img src="instaphoto.png" alt="photo insta" class="imgInsta">
+                                <h3 class="cardName">My Instagram account</h3> 
+                                <a href="https://www.instagram.com/tom_tremerel/" class ="iconSize"><img src="instagram-line.png" alt="icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="slide">
+                    <div class="container">
+                        <div class="card">
+                            <div class="cardBorder linkedin">
+                                <img src="linkedinPhoto.png" alt="photo linkedin" class="imgLinkedin">
+                                <h3 class="cardName">My LinkedIn account</h3> 
+                                <a href="https://www.linkedin.com/in/tom-tremerel-990aa01b0/" class ="iconSize"><img src="linkedinIcon.png" alt="icon"></a>
+                            </div>  
+                        </div>
+                    </div>
+                </li>
+                <li class="slide" data-active>
+                    <div class="container">
+                        <div class="card">
+                            <div class="cardBorder gitHub">
+                                <img src="gitHubPhoto.jpg" alt="photo gitHub" class="imgGithub">
+                                <h3 class="cardName">My GitHub account</h3> 
+                                <a href="https://github.com/settings/profile" class ="iconSize"><img src="githubIcon.png" alt="icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
